@@ -1,0 +1,64 @@
+.card {
+    width: 380px;
+    height: 268.7px;
+    margin-top: 75px;
+    background: #20AD5A;
+    color: #E7EFEA;
+    border-radius: 10px;
+    transform: rotate(90deg);
+    transition: width 2s ease-in-out;
+}
+
+.card-in {
+    width: 20px;
+}
+
+.logo {
+    position: relative;
+    text-align: right;
+    margin-top: 5px;
+    margin-right: 5px;
+    font-size: 36px;
+}
+
+.cardType {
+    position: relative;
+    text-align: right;
+    margin-top: -30px;
+    margin-right: 20px;
+    font-size: 22px;
+}
+
+.chip {
+    width: 60px;
+    height: 42.42px;
+    margin-left: 30px;
+    background: silver;
+    border-radius: 10px;
+}
+
+.cardNumber {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 22px;
+    margin-left: 30px;
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 3);
+    color: silver;
+}
+
+.exp {
+    margin-left: 30px;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 18px;
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 3);
+    color: silver;
+}
+
+.accountHolder {
+    margin-left: 30px;
+    margin-top: -15px;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 20px;
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 3);
+    text-transform: uppercase;
+    color: silver;
+}

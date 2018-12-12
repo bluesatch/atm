@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bank of Satch</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bankofsatch.css">
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 header">
+                    <h1>Bank of Satch</h1>
+                    <button onclick="opening()">Click Here To Begin</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="screen-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5">
+                    <div class="screen">
+                        <div>
+                            <p><span id="output" class="output"></span></p>
+                            <p><span id="display" class="display"></span></p>
+                        </div>
+                    </div>
+                    <div class="options">
+                        <button class="option1"><span id="option1" class="opt1"></span></button>
+                        <button class="option2"><span id="option2" class="opt2"></span></button>
+                        <button class="option3"><span id="option3" class="opt3"></span></button>
+                        <button class="option4"><span id="option4" class="opt4"></span></button>
+                        <button class="option5"><span id="option5" class="opt5"></span></button>
+                        <button class="option6"><span id="option6" class="opt6"></span></button>
+                    </div>
+                </div>
+                <div class="col-sm-7">
+                    <div class="dispensers">
+                        <div class="cardDispenser">
+                            <hr>
+                            <p>Card</p>
+                        </div>
+                        <div class="cashDispenser">
+                            <hr>
+                            <p>Cash</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!--clear screen section-->
+    <div class="keypad">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5">
+                    <div class="pad">
+                        <div class="keys">
+                            <div class="row">
+                                <div class="col-sm-3 col-xs-3">
+                                    <button class="numPad" value="1" onclick="keypad(this.value)">1</button>
+                                </div>
+                                <div class="col-sm-3 col-xs-3">
+                                    <button class="numPad" value="2" onclick="keypad(this.value)">2</button>
+                                </div>
+                                <div class="col-sm-3 col-xs-3">
+                                    <button class="numPad" value="3" onclick="keypad(this.value)">3</button>
+                                </div>
+                                <div class="col-sm-3 col-xs-3">
+                                    <button class="delete" onclick="del()">DEL</button>
+                                </div>
+                            </div><!--close row-->
+                            <div class="row">
+                                <div class="col-sm-3 col-xs-3">
+                                    <button class="numPad" value="4" onclick="keypad(this.value)">4</button>
+                                </div>
+                                <div class="col-sm-3 col-xs-3">
+                                    <button class="numPad" value="5" onclick="keypad(this.value)">5</button>
+                                </div>
+                                <div class="col-sm-3 col-xs-3">
+                                    <button class="numPad" value="6" onclick="keypad(this.value)">6</button>
+                                </div>
+                                <div class="col-sm-3 cos-xs-3">
+                                    <button class="cancel" onclick="cancel()">CAN</button>
+                                </div>
+                            </div><!--cose row-->
+                            <div class="row">
+                                <div class="col-sm-3 col-xs-3">
+                                    <button class="numPad" value="7" onclick="keypad(this.value)">7</button>
+                                </div>
+                                <div class="col-sm-3 col-xs-3">
+                                    <button class="numPad" value="8" onclick="keypad(this.value)">8</button>
+                                </div>
+                                <div class="col-sm-3 col-xs-3">
+                                    <button class="numPad" value="9" onclick="keypad(this.value)">9</button>
+                                </div>
+                                <div class="col-sm-3 col-xs-3">
+                                    <button class="enter" onclick="enter()">ENT</button>
+                                </div>
+                            </div><!--close row-->
+                            <div class="row">
+                                <div class="col-sm-3 col-xs-3">
+                                    <button class="nil"></button>
+                                </div>
+                                <div class="col-sm-3 col-xs-3">
+                                    <button class="numPad" value="0" onclick="keypad(this.value)">0</button>
+                                </div>
+                                <div class="col-sm-3 col-xs-3">
+                                    <button class="nil"></button>
+                                </div>
+                                <div class="col-sm-3 col-xs-3">
+                                    <button class="nil2"></button>
+                                </div>
+                            </div><!--close row-->
+                        </div><!--close keys-->
+                    </div><!--close pad-->
+                </div><!--close col-sm 5-->
+                <div class="col-sm-7">
+                        <div class="receiptDispenser">
+                            <hr>
+                            <p>Get Receipt Here</p>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div><!--close keypad-->
+    <script src="js/bankofsatch.js"></script>
+</body>
+</html>
